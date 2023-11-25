@@ -12,7 +12,7 @@ function App() {
   function getRandomSingleDigitNumber(limit = 9, min = 0) {
     return Math.floor(Math.random() * (limit - min) + min);
   }
-
+    
   function addMole() {
     const position = getRandomSingleDigitNumber(18);
 
